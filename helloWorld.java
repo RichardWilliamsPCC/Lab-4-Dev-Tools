@@ -15,4 +15,12 @@ public class helloWorld
         System.out.println("Hello World!");
     }
     
+    /**
+     * Say hello to a specific person
+     * @param name
+     */
+    public void sayHello(String name)
+    {
+        System.out.println("Hello " + name + "!");
+    }
 }
